@@ -3,11 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Change Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Edu+VIC+WA+NT+Beginner&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Write your markup here -->
-
+    <link rel="stylesheet" href="style.css">
+    <h1>Change Calculator</h1>
+    <input id="amount-due" placeHolder="Item Price"></input>
+    <input id="amount-received" placeHolder="Customer Money"></input>
+    <button id="calculate-change" onclick="handleClickEvent()">compute</button>
+    <p id="dollars-output"></p>
+    <p id="quarters-output"></p>
+    <p id="dimes-output"></p>
+    <p id="nickels-output"></p>
+    <p id="pennies-output"></p>
+    <p id="output"></p>
     <!-- Don't forget to add your <script> tag here -->
-
+    <script src="main.js" charset="utf-8"></script>
   </body>
+  <style type="text/css">
+    p { font:30px Arial; color: white }
+    </style>
+
 </html>
